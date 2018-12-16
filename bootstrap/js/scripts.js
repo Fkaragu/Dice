@@ -113,6 +113,12 @@ function addScore1() {
     document.getElementById('scoreP1').value = resultScore1;
     alert("Yipeeeeeeeeeeee.. Player 1 wins");
     reset();
+    $("#playerrol1").hide();
+    $("#playerrol2").hide();
+    $("#btndice1").show();
+    $("#btndice2").hide();
+    $("#btnhold1").show();
+    $("#btnhold2").hide();
   } else {
     document.getElementById('scoreP1').value = resultScore1;
   }
@@ -131,6 +137,12 @@ function addScore2() {
     document.getElementById('scoreP2').value = resultScore2;
     alert("Yipeeeeeeeeeeee.. Player 2 wins");
     reset();
+    $("#playerrol1").hide();
+    $("#playerrol2").hide();
+    $("#btndice1").show();
+    $("#btndice2").hide();
+    $("#btnhold1").show();
+    $("#btnhold2").hide();
   } else {
     document.getElementById('scoreP2').value = resultScore2;
   }

@@ -1,0 +1,26 @@
+[33m1b693b3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m add function to clear roll message when second player is playing
+[33m3d67cfd[m[33m ([m[1;31morigin/gh-pages[m[33m)[m add function addScore2
+[33m52e9753[m add function addScore1
+[33m98e041e[m add function randomNums2 and addTot2
+[33mddeb84c[m add addTot1 function to ensure scores are added
+[33mdf6b5e4[m add functionality to check if number is 1
+[33mf6e6cf4[m add function for generating random number between 1 and 6
+[33m238f6f6[m add reset function for new game
+[33m3586c36[m add click event for hold1 and hold2
+[33md90c464[m add click event for dice1 and dice2
+[33m07d0d53[m add click event for new game
+[33m34c4a53[m add hide functionality for hidding roll dice message
+[33m8027623[m add hide functionality for dice2 and hold2 button
+[33m9151c00[m add alignment and spacing & indentation
+[33m0ba7468[m add bacground color and align text
+[33mcc0e794[m add boarder and color
+[33m209d4d3[m add rolling message and spacing & indentation
+[33m9635a84[m add player two total section
+[33mce6836f[m add player two score section
+[33mee33de8[m add two hold buttons
+[33m9e40dd6[m add two dice
+[33m9eefc09[m add button for new game
+[33md105049[m add score and total section for player 1
+[33me4376a1[m add player 1
+[33mc12962a[m add image
+[33m0362d37[m Template creation
