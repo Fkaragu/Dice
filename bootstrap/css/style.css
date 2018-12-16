@@ -1,8 +1,22 @@
+#contain {
+  background-color: grey;
+}
+
 #section {
   border: 2px solid red;
   margin-top: 7%;
   background-color: white;
   padding-bottom: 40%;
+}
+
+#sectionc {
+  margin-top: 40%;
+  margin-left: 25%;
+}
+
+#sectioncX {
+  margin-top: 35%;
+  margin-left: 5%;
 }
 
 #head {
@@ -12,4 +26,8 @@
   border: 2px solid red;
   background-color: grey;
   font-family: sans-serif;
+}
+
+input {
+  text-align: center;
 }
