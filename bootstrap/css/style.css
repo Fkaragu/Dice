@@ -1,0 +1,15 @@
+#section {
+  border: 2px solid red;
+  margin-top: 7%;
+  background-color: white;
+  padding-bottom: 40%;
+}
+
+#head {
+  color: white;
+  margin-left: 5%;
+  text-align: center;
+  border: 2px solid red;
+  background-color: grey;
+  font-family: sans-serif;
+}
