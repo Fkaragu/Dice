@@ -12,7 +12,14 @@ $(document).ready(function() {
     alert("Dice2");
   });
 
-  
+  $("#btnhold1").click(function(event) {
+    alert("Hold1");
+
+  });
+
+  $("#btnhold2").click(function(event) {
+    alert("Hold2");
+
   });
 
 });
