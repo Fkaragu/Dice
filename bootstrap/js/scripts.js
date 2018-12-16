@@ -1,3 +1,4 @@
+//user interface logic:
 $(document).ready(function() {
   $("#btnNew").click(function(event) {
     //alert("New Game");
@@ -42,6 +43,7 @@ $(document).ready(function() {
 
 });
 
+//Business logic
 function randomNums1() {
   var min = 1;
   var max = 6;
@@ -64,7 +66,7 @@ function randomNums1() {
     // alert(currentV1); checking what is being picked.
   }
 };
-
+//Business logic
 function randomNums2() {
   var min = 1;
   var max = 6;
@@ -88,19 +90,19 @@ function randomNums2() {
     // alert(currentV2); checking what is being picked.
   }
 };
-
+//Business logic
 function addTot1(num0, num1) {
   var result = num0 + num1;
   document.getElementById('totalP1').value = result;
   //alert(result);
 };
-
+//Business logic
 function addTot2(num0, num1) {
   var result = num0 + num1;
   document.getElementById('totalP2').value = result;
   //alert(result);
 };
-
+//Business logic
 function addScore1() {
   var score1 = parseInt(document.getElementById('totalP1').value);
   var scorep1 = parseInt(document.getElementById('scoreP1').value);
@@ -123,8 +125,7 @@ function addScore1() {
     document.getElementById('scoreP1').value = resultScore1;
   }
 };
-
-
+//Business logic
 function addScore2() {
   var score2 = parseInt(document.getElementById('totalP2').value);
   var scorep2 = parseInt(document.getElementById('scoreP2').value);
@@ -147,7 +148,7 @@ function addScore2() {
     document.getElementById('scoreP2').value = resultScore2;
   }
 };
-
+//Business logic
 function reset() {
   document.getElementById('scoreP1').value = 0;
   document.getElementById('scoreP2').value = 0;
