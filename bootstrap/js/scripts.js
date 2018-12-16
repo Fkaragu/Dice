@@ -38,3 +38,10 @@ function reset(){
   $("#btnhold2").hide();
 
 };
+
+function randomNums1() {
+  var min = 1;
+  var max = 6;
+  var random = Math.floor(Math.random() * (+max - +min)) + +min;
+alert(random);
+};
