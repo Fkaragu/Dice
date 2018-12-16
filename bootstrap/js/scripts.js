@@ -11,15 +11,30 @@ $(document).ready(function() {
 
   $("#btndice2").click(function(event) {
     //alert("Dice2");
+    randomNums2();
   });
 
   $("#btnhold1").click(function(event) {
     //alert("Hold1");
+    addScore1();
+    document.getElementById('totalP1').value =0;
+    $("#btndice1").hide();
+    $("#btnhold1").hide();
+    $("#playerrol1").hide();
+    $("#btndice2").show();
+    $("#btnhold2").show();
 
   });
 
   $("#btnhold2").click(function(event) {
     //alert("Hold2");
+    addScore2();
+    document.getElementById('totalP2').value =0;
+    $("#btndice2").hide();
+    $("#btnhold2").hide();
+    $("#playerrol2").hide();
+    $("#btndice1").show();
+    $("#btnhold1").show();
 
   });
 
@@ -82,6 +97,22 @@ function addTot2(num0, num1) {
   var result = num0 + num1;
   document.getElementById('totalP2').value = result;
   //alert(result);
+};
+function addScore1() {
+  var score1 = parseInt(document.getElementById('totalP1').value);
+  var scorep1 = parseInt(document.getElementById('scoreP1').value);
+
+  var resultScore1 = score1 + scorep1;
+  //document.getElementById('scoreP1').value = resultScore1;
+
+  // check if resultScore1 is 100 if so player 1 wins
+  if (resultScore1 >= 100)
+  {
+    document.getElementById('scoreP1').value = resultScore1;
+    alert("Yipeeeeeeeeeeee.. Player 1 wins");
+  } else {
+    document.getElementById('scoreP1').value = resultScore1;
+  }
 };
 
 function reset(){
