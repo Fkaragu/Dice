@@ -7,11 +7,13 @@ $(document).ready(function() {
   $("#btndice1").click(function(event) {
     //alert("Dice1");
     randomNums1();
+    $("#playerrol2").hide();
   });
 
   $("#btndice2").click(function(event) {
     //alert("Dice2");
     randomNums2();
+    $("#playerrol1").hide();
   });
 
   $("#btnhold1").click(function(event) {
@@ -110,6 +112,7 @@ function addScore1() {
   if (resultScore1 >= 100) {
     document.getElementById('scoreP1').value = resultScore1;
     alert("Yipeeeeeeeeeeee.. Player 1 wins");
+    reset();
   } else {
     document.getElementById('scoreP1').value = resultScore1;
   }
@@ -127,6 +130,7 @@ function addScore2() {
   if (resultScore2 >= 100) {
     document.getElementById('scoreP2').value = resultScore2;
     alert("Yipeeeeeeeeeeee.. Player 2 wins");
+    reset();
   } else {
     document.getElementById('scoreP2').value = resultScore2;
   }
