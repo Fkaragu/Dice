@@ -1,3 +1,11 @@
+#btndice2 {
+  display: none;
+}
+
+#btnhold2 {
+  display: none;
+}
+
 .feedback {
   color: red;
   font-size: 20px;
