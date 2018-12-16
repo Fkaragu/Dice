@@ -55,7 +55,15 @@ if (random === 1) {
 } else ///random not equals to 1
 {
   var currentV1 = parseInt(document.getElementById('totalP1').value);
-
-  alert(currentV1); checking what is being picked.
+  addTot1(currentV1, random);
+  $("#playerrol1").show();
+  $("#playerrol1").text("You have rolled : " + random);
+  // alert(currentV1); checking what is being picked.
 }
+};
+
+function addTot1(num0, num1) {
+  var result = num0 + num1;
+  document.getElementById('totalP1').value = result;
+  //alert(result);
 };
