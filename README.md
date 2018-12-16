@@ -9,7 +9,7 @@ The Pig Dice program is designed to be a fun game and compete with your partner:
 * The game is designed to have 3 sections
 	*  Player 1 section.
 	*  Control section (New Game, Dice & Hold).
-	*  Player 2 section.	
+	*  Player 2 section.
 
 ## Application link
 Here is a live working link https://fkaragu.github.io/Dice/.
@@ -24,7 +24,7 @@ Here is a live working link https://fkaragu.github.io/Dice/.
 
 ### Front-end/User Interface Logic Objectives
 * A dice has numbers between 1 and 6. So there can only be values generated between those values.
-* Player needs to roll the dice as many times as possible without rolling a 1. 
+* Player needs to roll the dice as many times as possible without rolling a 1.
 * Each dice roll needs to be added to the previous
 * If hold is pressed points accumulated are to be added on total score.
 * If 1 rolled then points accumaluted are lost and you are left with total score. It then becomes player two's turn.
