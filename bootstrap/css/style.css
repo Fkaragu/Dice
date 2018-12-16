@@ -1,3 +1,25 @@
+.feedback {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#btndice1 {
+  width: 80px;
+  height: 80px;
+}
+
+#btndice2 {
+  width: 80px;
+  height: 80px;
+}
+
+.btnhold, #btnNew {
+  width: 90px;
+  height: 35px;
+}
+
 #contain {
   background-color: grey;
 }
@@ -26,6 +48,14 @@
   border: 2px solid red;
   background-color: grey;
   font-family: sans-serif;
+}
+
+.score1 {
+  margin-top: 1%;
+  margin-left: 40%;
+  height: 80px;
+  width: 80px;
+  font-size: 20px;
 }
 
 input {
