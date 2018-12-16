@@ -43,5 +43,19 @@ function randomNums1() {
   var min = 1;
   var max = 6;
   var random = Math.floor(Math.random() * (+max - +min)) + +min;
-alert(random);
+//alert(random);
+if (random === 1) {
+  $("#playerrol1").show();
+  $("#playerrol1").text("You have rolled 1 it's players 2 turn.!!!");
+  document.getElementById('totalP1').value =0;
+  $("#btndice1").hide();
+  $("#btnhold1").hide();
+  $("#btndice2").show();
+  $("#btnhold2").show();
+} else ///random not equals to 1
+{
+  var currentV1 = parseInt(document.getElementById('totalP1').value);
+
+  alert(currentV1); checking what is being picked.
+}
 };
