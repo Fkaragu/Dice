@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $("#btnNew").click(function(event) {
-    alert("New Game");
+    //alert("New Game");
+    reset();
   });
 
   $("#btndice1").click(function(event) {
@@ -23,3 +24,17 @@ $(document).ready(function() {
   });
 
 });
+
+function reset(){
+  document.getElementById('scoreP1').value = 0;
+  document.getElementById('scoreP2').value = 0;
+  document.getElementById('totalP1').value = 0;
+  document.getElementById('totalP2').value = 0;
+  $("#playerrol1").hide();
+  $("#playerrol2").hide();
+  $("#btndice1").show();
+  $("#btndice2").hide();
+  $("#btnhold1").show();
+  $("#btnhold2").hide();
+
+};
