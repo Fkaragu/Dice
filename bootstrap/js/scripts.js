@@ -74,7 +74,7 @@ function randomNums2() {
 
   if (random === 1) {
     $("#playerrol2").show();
-    $("#playerrol2").text("You have rolled 1 it's players 2 turn.!!!");
+    $("#playerrol2").text("You have rolled 1 it's players 1 turn.!!!");
     document.getElementById('totalP2').value = 0;
     $("#btndice2").hide();
     $("#btnhold2").hide();
